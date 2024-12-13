@@ -16,7 +16,7 @@ This project allows users to:
 
 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀 𝗨𝘀𝗲𝗱
 
-• 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱:
+1) 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱:
 
    • HTML5, CSS3 (for styling and layout)
    
@@ -26,13 +26,13 @@ This project allows users to:
    
    • jQuery (for AJAX requests and form data handling)
 
-• 𝗕𝗮𝗰𝗸𝗲𝗻𝗱:
+2) 𝗕𝗮𝗰𝗸𝗲𝗻𝗱:
 
    • Python (for implementing the machine learning model and prediction logic)
    
    • Flask (for building the web application and handling requests)
 
-• 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴:
+3) 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴:
 
    • The project uses a machine learning model (trained on historical data) to predict loan eligibility based on user input.
 
