@@ -36,5 +36,11 @@ form {
 }
 .btn-custom {
   width: 250px;
-  height: 45px;
+  height: 36px;
+}
+/* Media query for small and medium screens */
+@media (max-width: 768px) {
+  #prediction_text {
+    margin-top: 25px; /* Adjust the value as needed */
+  }
 }

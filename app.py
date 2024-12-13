@@ -16,24 +16,24 @@ def home():
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        # Extract data from form
-        monthly_debt = int(request.form['monthly_debt'])
-        open_accounts = int(request.form['open_accounts'])
-        credit_balance = int(request.form['credit_balance'])
-        open_credit = int(request.form['open_credit'])
-        
+        # Parse JSON data from the request
+        data = request.get_json()
+        monthly_debt = int(data['monthly_debt'])
+        open_accounts = int(data['open_accounts'])
+        credit_balance = int(data['credit_balance'])
+        open_credit = int(data['open_credit'])
+
         # Create the feature array for prediction
         final_features = [np.array([monthly_debt, open_accounts, credit_balance, open_credit])]
-        
+
         # Make prediction
         prediction = model.predict(final_features)
-        output = 'Eligible' if prediction[0] == 1 else 'Not Eligible'
+        output = 'Congrats, you are eligible!' if prediction[0] == 1 else 'Sorry, you are not eligible!'
 
-        # Return prediction as JSON
-        return jsonify(prediction_text=f"Eligibility: {output}")
+        # Return the prediction result as JSON
+        return jsonify({'prediction': output})
     except Exception as e:
-        # Handle error and return message
-        return jsonify(prediction_text=f"Error: {e}")
+        return jsonify({'error': str(e)})
 
 if __name__ == "__main__":
     app.run(debug=True)
