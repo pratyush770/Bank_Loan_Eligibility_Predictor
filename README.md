@@ -24,6 +24,6 @@ This project allows users to:
 - Real-Time Prediction: Users receive instant feedback on their loan eligibility based on the input provided.
 - User-Friendly Interface: The form is easy to navigate, making it accessible even for users with minimal technical knowledge.
 ## Deplyment
-This project is deployed on render and can be accessed via the following link:
+This project is deployed on Render and can be accessed via the following link:
 
 [Website] https://bank-loan-eligibility-predictor.onrender.com
