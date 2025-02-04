@@ -20,7 +20,7 @@ This project allows users to:
   - **Flask** (for building the web application and handling requests)
   
 - **Machine Learning**
-  - The project uses a machine learning model (trained on historical data) to predict loan eligibility based on user input.
+  - The project uses a **machine learning model** (trained on historical data) to predict loan eligibility based on user input.
   
 ## Key Features
   - **Responsive Design**: The application is designed to be fully responsive, ensuring a smooth user experience across all devices.
