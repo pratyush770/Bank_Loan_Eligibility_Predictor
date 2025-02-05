@@ -27,6 +27,15 @@ This project allows users to:
   
   - **Real-Time Prediction**: Users receive instant feedback on their loan eligibility based on the input provided.
   - **User-Friendly Interface**: The form is easy to navigate, making it accessible even for users with minimal technical knowledge.
+## How to Deploy
+- Clone the repository by the following command: `git clone https://github.com/pratyush770/Bank_Loan_Eligibility_Predictor.git`
+  
+- Create a **virtual environment** (venv) first and install all the packages using `pip install requirements.txt`.
+- Create a github repository and make sure to add your venv in **.gitignore** since it contains all dependencies and can be quite large.
+- Create your **Render** account by visiting the following link: https://dashboard.render.com
+- Click on **New** button on the top right and then select **Web service**.
+- Select your **created repository, branch, instance type** and give **name** to your website. Keep other things as it is.
+- Click on the **Deploy Web Service** button and you're done!
 ## Deployment
 This project is deployed on **Render** and can be accessed via the following link:
 
